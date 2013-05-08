@@ -86,7 +86,8 @@ namespace TheCodeKing.ActiveButtons.Controls
             originalMinSize = form.MinimumSize;
             AttachHandlers();
             ToolTip.ShowAlways = true;
-
+            TopMost = form.TopMost;
+            TopMost = false;
             spillOverMode = SpillOverMode.IncreaseSize;
         }
 
